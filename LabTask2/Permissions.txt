@@ -1,0 +1,13 @@
+Read, write, and execute permission for the owner
+    chmod u+rwx IveGotRights/
+Read and write permission for the group
+    chmod u-rwx IveGotRights/ && chmod g+rw IveGotRights/
+Read permission for others using numerical codes. Furthermore, establish that newly created files will by default have (0.2%)
+    cd ..
+    chmod g+r LabTask2
+Read and write permission for the owner
+    chmod 0600 IveGotRights/
+Read and write permission for the group
+    chmod 0060 IveGotRights/
+Read permission for others
+    chmod 0004 IveGotRights/

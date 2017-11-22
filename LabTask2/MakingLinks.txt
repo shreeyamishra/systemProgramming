@@ -1,0 +1,17 @@
+Make a directory called LabTask2 off your home directory (0.1%).
+    mkdir LabTask2
+Off LabTask2, a subdirectory called Originals (0.1%).
+    mkdir Originals
+In Originals create two files, HardStuff and SoftStuff (put any garbage in them) (0.1%).
+    vim HardStuff
+    vim SoftStuff
+Off LabTask2, a subdirectory called Links (0.1%).
+    vim Links
+In Links
+A hard link named LinkToHardStuff that links to HardStuff in Originals (0.1%).
+    vim LinkToHardStuff
+    ln ../Originals/HardStuff LinkToHardStuff
+A relative soft (symbolic link) link named RelativeToSoftStuff to SoftStuff in Originals(0.1%).
+    vim RelativeToSoftStuff
+    ln -s ..Originals/SoftStuff RelativeToSoftStuff
+
