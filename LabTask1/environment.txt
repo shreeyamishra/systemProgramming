@@ -1,4 +1,0 @@
-export VAR1=value
-
-By saving the variable in the home directory .bashrc, I have created an environment variable VAR1. Now in this file by using export VAR1=value I have saved the variable so it is available to any process I run from this shell process, restricting it from other processes.
-
